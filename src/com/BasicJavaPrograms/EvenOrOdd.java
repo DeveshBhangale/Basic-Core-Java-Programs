@@ -1,6 +1,6 @@
 package com.BasicJavaPrograms;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class EvenOrOdd {
 	public static void main(String[] args) {
@@ -23,4 +23,5 @@ public class EvenOrOdd {
 			System.out.println("odd Number");
 
 }
+
 }
