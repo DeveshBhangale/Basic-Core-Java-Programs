@@ -5,6 +5,8 @@ import java.util.*;
 public class FlipCoin {
 	public static void main(String[] args) {
 		int noOfFlips,heads=0,tails=0;
+		final double threshold = 0.5;
+		
 		Scanner sc = new Scanner(System.in);
 		do {
 			System.out.println("Please enter a Positive Number");
@@ -15,8 +17,6 @@ public class FlipCoin {
 			noOfFlips = sc.nextInt();
 		}while(noOfFlips<=0);
 		sc.close();
-		
-		final double threshold = 0.5;
 		
 		for (int i=0;i<noOfFlips;i++) {
 			if(Math.random() < threshold) {
