@@ -8,14 +8,13 @@ public class VendingMachine {
 		int number;
 		Scanner sc = new Scanner(System.in);
 		do {
-			System.out.println("Please enter a Number");
+			System.out.println("Please enter a positive Number");
 			while(!sc.hasNextInt()) {
 				System.out.println("Entered Input is not a number");
 				sc.next();
 			}
 			number = sc.nextInt();
-			break;
-		}while(true);
+		}while(number<=0);
 		sc.close();
 		
 		
