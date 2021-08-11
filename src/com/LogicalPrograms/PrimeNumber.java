@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class PrimeNumber {
 
 	public static void main(String args[]){    
-		  int i,m=0,flag=0,n;      
-		  Scanner sc = new Scanner(System.in);
-			do {
-				System.out.println("Please enter a Number");
-				while(!sc.hasNextInt()) {
-					System.out.println("Entered Input is not a number");
-					sc.next();
-				}
-				n = sc.nextInt();
-				break;
-			}while(true);
-			sc.close();
+		int i,m=0,flag=0,n;      
+		Scanner sc = new Scanner(System.in);
+		do {
+			System.out.println("Please enter a Number");
+			while(!sc.hasNextInt()) {
+				System.out.println("Entered Input is not a number");
+				sc.next();
+			}
+			n = sc.nextInt();
+			break;
+		}while(true);
+		sc.close();
 			
 		  m=n/2;    
 		  if(n==0||n==1){  
