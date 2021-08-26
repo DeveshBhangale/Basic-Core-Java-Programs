@@ -1,4 +1,4 @@
-package com.oopsPrograms;
+package com.bridgelabz.oopsPrograms;
 
 public class StockAccount {
 	public int noOfShares;

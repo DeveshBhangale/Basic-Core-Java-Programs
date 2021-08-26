@@ -1,4 +1,4 @@
-package com.oopsPrograms;
+package com.bridgelabz.oopsPrograms;
 
 public class DeckOfCards {
 	public static final String suits[] = {"Hearts", "Diamonds", "Spade", "Club"};

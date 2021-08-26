@@ -1,4 +1,4 @@
-package com.oopsPrograms;
+package com.bridgelabz.oopsPrograms;
 
 import java.util.Scanner;
 

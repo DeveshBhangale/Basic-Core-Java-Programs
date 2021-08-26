@@ -1,4 +1,4 @@
-package com.oopsPrograms;
+package com.bridgelabz.oopsPrograms;
 
 public class StockAccountManagement {
 	public final String stockName;

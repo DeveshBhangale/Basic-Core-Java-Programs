@@ -1,4 +1,4 @@
-package com.LogicalPrograms;
+package com.bridgelabz.LogicalPrograms;
 
 import java.util.Scanner;
 
